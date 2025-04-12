@@ -5,6 +5,8 @@ import About from './components/About'
 import Services from './components/Services'
 import Work from './components/Work'
 import Contact from './components/Contact'
+import SkillSection from './components/SkillSection';
+import ProjectSection from './components/ProjectSection'
 
 const App = () => {
   return (
@@ -12,8 +14,10 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <About/>
-      <Services/>
-      <Work/>
+      {/* <Services/> */}
+      <SkillSection />
+      <ProjectSection/>
+      {/* <Work/> */}
       <Contact/>
     </div>
   )

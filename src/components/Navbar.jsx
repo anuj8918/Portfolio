@@ -27,8 +27,8 @@ const Navbar = () => {
 
   const items = [
     { id: 1, text: "About", to: 'about' },
-    { id: 2, text: "Services", to: 'services' },
-    { id: 3, text: "Work", to: 'work' },
+    { id: 2, text: "Skills", to: 'skills' },
+    { id: 3, text: "Projects", to: 'projects' },
     { id: 4, text: "Contact", to: 'contact' },
   ];
 
@@ -54,9 +54,15 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <a  className='md:text-base lg:text-lg bg-purple-500 hover:bg-purple-400 text-white px-4 py-2 rounded-full'>
+        <a
+          href="/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className='md:text-base lg:text-lg bg-purple-500 hover:bg-purple-400 text-white px-4 py-2 rounded-full'
+        >
           Download CV
         </a>
+
       </motion.div>
 
       {/* Mobile Navbar */}
@@ -73,25 +79,33 @@ const Navbar = () => {
             </div>
             {menu && (
               <div className='flex flex-col justify-center items-center'>
-                <ul className='space-y-6 text-lg'>
-                  {items.map(({ id, text, to }) => (
-                    <li key={id} className='hover:text-purple-500 duration-200 cursor-pointer'>
-                      <Link
-                        to={to}
-                        smooth={true}
-                        duration={500}
-                        offset={-70}
-                        onClick={() => setMenu(false)}
-                      >
-                        {text}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-                <a href="#" className='text-lg bg-purple-500 hover:bg-purple-400 text-white px-4 py-2 mt-6 rounded-full'>
-                  Download CV
-                </a>
-              </div>
+              <ul className='space-y-6 text-lg'>
+                {items.map(({ id, text, to }) => (
+                  <li key={id} className='hover:text-purple-500 duration-200 cursor-pointer'>
+                    <Link
+                      to={to}
+                      smooth={true}
+                      duration={500}
+                      offset={-70}
+                      onClick={() => setMenu(false)}
+                    >
+                      {text}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            
+              {/* Show Download CV only after 'Contact' */}
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className='text-lg bg-purple-500 hover:bg-purple-400 text-white px-4 py-2 mt-8 rounded-full'
+              >
+                Download CV
+              </a>
+            </div>
+            
             )}
           </motion.div>
         </motion.div>
