@@ -7,6 +7,7 @@ import Work from './components/Work'
 import Contact from './components/Contact'
 import SkillSection from './components/SkillSection';
 import ProjectSection from './components/ProjectSection'
+import Education from './components/Education'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <About/>
+      {/* <Education/> */}
       {/* <Services/> */}
       <SkillSection />
       <ProjectSection/>

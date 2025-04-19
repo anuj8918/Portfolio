@@ -9,10 +9,10 @@ const About = () => {
 
         {/* Heading */}
         <motion.h2
-          initial={{ opacity: 0, y: 100 }}
+          initial={{ opacity: 0, y: 80 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.2 }}
-          transition={{ delay: 0.3, duration: 0.5 }}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ delay: 0.2, duration: 0.4 }}
           className='text-3xl md:text-4xl font-bold mb-8 underline'
         >
           About Me
@@ -20,26 +20,23 @@ const About = () => {
 
         {/* Short Intro */}
         <motion.p
-          initial={{ opacity: 0, y: 100 }}
+          initial={{ opacity: 0, y: 80 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.2 }}
-          transition={{ delay: 0.5, duration: 0.5 }}
-          className='mb-12 text-gray-400 text-base sm:text-lg md:text-xl'
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ delay: 0.3, duration: 0.4 }}
+          className='mb-10 text-gray-400 text-base sm:text-lg md:text-xl'
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Cum, beatae doloremque alias dicta cupiditate magni dolor porro,
-          in accusamus, deserunt iste libero laudantium necessitatibus quasi
-          qui animi tenetur harum! Necessitatibus.
+          Passionate Full Stack Developer skilled in building fast, responsive, and scalable web applications using the MERN stack.
         </motion.p>
 
         {/* Image and Description */}
         <div className='flex flex-col md:flex-row justify-center items-center'>
           {/* Avatar */}
           <motion.div
-            initial={{ opacity: 0, x: -100 }}
+            initial={{ opacity: 0, x: -80 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, amount: 0.2 }}
-            transition={{ delay: 0.6, duration: 0.5 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ delay: 0.3, duration: 0.4 }}
             className='mb-8 md:mb-0 md:mr-8 flex justify-center'
           >
             <img
@@ -51,79 +48,55 @@ const About = () => {
 
           {/* Paragraph */}
           <motion.p
-            initial={{ opacity: 0, x: 100 }}
+            initial={{ opacity: 0, x: 80 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, amount: 0.2 }}
-            transition={{ delay: 0.6, duration: 0.5 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ delay: 0.4, duration: 0.4 }}
             className='md:w-1/2 text-gray-400 px-4 md:px-0 text-base sm:text-lg md:text-xl'
           >
-            Hey there! I'm Anuj, a passionate UI/UX designer armed with creativity and a love for problem-solving.
-            With a blend of design thinking and user-centric approach, I'm on a mission to create digital experiences
-            that leave a lasting impression. So let's collaborate and bring your vision to life!
+            Hey, I'm Anuj Mishra — a B.Tech CSE student and MERN stack developer. 
+            I’ve built full-stack projects, explored AI integrations, and have a strong grip on JavaScript. 
+            I’ve solved 250+ DSA problems across platforms like LeetCode and GFG. Always curious, always building!
           </motion.p>
         </div>
 
         {/* Counters */}
         <div className='flex flex-wrap justify-around items-center mt-12 gap-y-8'>
 
-          {/* Experience */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true, amount: 0.2 }}
-            transition={{ delay: 1.2, duration: 0.3 }}
-            className='text-center px-4'
-          >
-            <h3 className='text-4xl md:text-6xl lg:text-8xl font-bold text-purple-500'>5+</h3>
-            <motion.p
-              initial={{ opacity: 0, y: 100 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.2 }}
-              transition={{ delay: 1.7, duration: 0.5 }}
-              className='text-sm sm:text-base md:text-lg text-gray-300'
-            >
-              Years of Design Experience
-            </motion.p>
-          </motion.div>
-
-          {/* Customers */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true, amount: 0.2 }}
-            transition={{ delay: 1.4, duration: 0.3 }}
-            className='text-center px-4'
-          >
-            <h3 className='text-4xl md:text-6xl lg:text-8xl font-bold text-purple-500'>50+</h3>
-            <motion.p
-              initial={{ opacity: 0, y: 100 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.2 }}
-              transition={{ delay: 1.8, duration: 0.5 }}
-              className='text-sm sm:text-base md:text-lg text-gray-300'
-            >
-              Overall Global Customers
-            </motion.p>
-          </motion.div>
-
           {/* Projects */}
           <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true, amount: 0.2 }}
-            transition={{ delay: 1.6, duration: 0.3 }}
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ delay: 0.4, duration: 0.3 }}
             className='text-center px-4'
           >
-            <h3 className='text-4xl md:text-6xl lg:text-8xl font-bold text-purple-500'>90+</h3>
-            <motion.p
-              initial={{ opacity: 0, y: 100 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.2 }}
-              transition={{ delay: 1.9, duration: 0.5 }}
-              className='text-sm sm:text-base md:text-lg text-gray-300'
-            >
-              Projects I have Made
-            </motion.p>
+            <h3 className='text-4xl md:text-6xl font-bold text-purple-500'>10+</h3>
+            <p className='text-sm sm:text-base md:text-lg text-gray-300'>Projects Completed</p>
+          </motion.div>
+
+          {/* Techs */}
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ delay: 0.5, duration: 0.3 }}
+            className='text-center px-4'
+          >
+            <h3 className='text-4xl md:text-6xl font-bold text-purple-500'>15+</h3>
+            <p className='text-sm sm:text-base md:text-lg text-gray-300'>Technologies Used</p>
+          </motion.div>
+
+          {/* Certifications */}
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ delay: 0.6, duration: 0.3 }}
+            className='text-center px-4'
+          >
+            <h3 className='text-4xl md:text-6xl font-bold text-purple-500'>5+</h3>
+            <p className='text-sm sm:text-base md:text-lg text-gray-300'>Courses Completed</p>
           </motion.div>
         </div>
       </div>

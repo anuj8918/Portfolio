@@ -29,14 +29,14 @@ const Hero = () => {
           transition={{ delay: 0.8, duration: 0.7, ease: 'easeOut' }}
           className='text-4xl md:text-5xl font-bold mb-4'
         >
-          Your Story, Your Way
+          Hello, It's Me
           <motion.span
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.0, duration: 0.6, ease: 'easeOut' }}
             className='block text-purple-500 mt-2'
           >
-            Build Your Personal Portfolio
+            Anuj Mishra
           </motion.span>
         </motion.h1>
 
@@ -46,7 +46,7 @@ const Hero = () => {
           transition={{ delay: 1.2, duration: 0.6, ease: 'easeOut' }}
           className='text-gray-400 text-lg mb-8'
         >
-          Showcase your journey by crafting a personal portfolio in minutes.
+          Brief description with insights into myself, my vocational journey and what I engage in professionally
         </motion.p>
 
         {/* CTA Buttons */}
