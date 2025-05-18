@@ -97,7 +97,7 @@ const Navbar = () => {
             
               {/* Show Download CV only after 'Contact' */}
               <a
-                href="/resume.pdf"
+                href="/AnujMishraResume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className='text-lg bg-purple-500 hover:bg-purple-400 text-white px-4 py-2 mt-8 rounded-full'
@@ -117,7 +117,7 @@ const Navbar = () => {
           transition={{ duration: 0.5 }}
           className='text-xl font-bold flex items-center gap-2 py-6 px-4'
         >
-          <span className='text-white'>ANUJ</span>
+          {/* <span className='text-white'>ANUJ</span> */}
           <span className='text-purple-500'>PORTFOLIO</span>
         </motion.div>
       </div>
