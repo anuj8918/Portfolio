@@ -37,7 +37,7 @@ const projects = [
     description: 'AI-powered career guidance system with resume upload and job recommendation.',
     tech: 'React, Flask, MySQL',
     github: 'https://github.com/anuj8918/career_advisor',
-    demo: 'https://career-advisor-your-url.vercel.app',
+    demo: '#',
     image: careerAdvisorImage
   },
   {
@@ -45,7 +45,7 @@ const projects = [
     description: 'A news aggregator that uses machine learning to filter and recommend articles.',
     tech: 'Python, HTML, CSS, Flask, ML',
     github: 'https://github.com/anuj8918/personal_news_aggregator',
-    demo: 'https://personal-news-aggregator-your-url.vercel.app',
+    demo: '#',
     image: personalNewsAggregatorImage
   },
   {
