@@ -35,7 +35,7 @@ const Contact = () => {
           transition={{ delay: 0.5, duration: 0.5 }}
           className="text-slate-400 mt-4"
         >
-          Let's make something new, meaningful, and more visual or conceptual.
+          Let's make something new, meaningful, and more visual or conceptual
         </motion.p>
       </div>
 
@@ -54,7 +54,7 @@ const Contact = () => {
             </div>
             <div>
               <p className="text-lg font-medium text-purple-500">Phone</p>
-              <p>+91 12345 67890</p>
+              <p>+91 92294 09080</p>
             </div>
           </motion.div>
 

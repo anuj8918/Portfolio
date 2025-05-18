@@ -54,7 +54,7 @@ const About = () => {
             transition={{ delay: 0.4, duration: 0.4 }}
             className='md:w-1/2 text-gray-400 px-4 md:px-0 text-base sm:text-lg md:text-xl'
           >
-            Hey, I'm Anuj Mishra — a B.Tech CSE student and MERN stack developer. 
+            Hey, I'm Anuj Mishra — a B.Tech IT student and MERN stack developer. 
             I’ve built full-stack projects, explored AI integrations, and have a strong grip on JavaScript. 
             I’ve solved 250+ DSA problems across platforms like LeetCode and GFG. Always curious, always building!
           </motion.p>

@@ -42,7 +42,7 @@ const Navbar = () => {
         className='container mx-auto px-4 md:flex hidden justify-between items-center py-6'
       >
         <div className='text-xl lg:text-2xl font-bold flex items-center gap-1'>
-          <span className='text-white'>ANUJ</span>
+          {/* <span className='text-white'>ANUJ</span> */}
           <span className='text-purple-500'>PORTFOLIO</span>
         </div>
         <ul className='hidden md:flex items-center space-x-6 list-none lg:text-lg md:text-base text-white'>
@@ -55,7 +55,7 @@ const Navbar = () => {
           ))}
         </ul>
         <a
-          href="/resume.pdf"
+          href="/AnujMishraResume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className='md:text-base lg:text-lg bg-purple-500 hover:bg-purple-400 text-white px-4 py-2 rounded-full'

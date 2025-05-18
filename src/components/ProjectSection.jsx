@@ -1,35 +1,42 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
 import wanderlustImage from '../assets/wanderlust.jpg';
 import blogsphereImage from '../assets/blogsphere.jpg';
 import careerAdvisorImage from '../assets/careerAdvisor.png';
 import personalNewsAggregatorImage from '../assets/personalNewsAggregator.jpg';
 import simonGameImage from '../assets/simonGame.jpg';
-import netflixHomePageImage from '../assets/netflixHomePage.png';
+import chatApplication from '../assets/chatApplication.png';
 
 const projects = [
   {
     title: 'Wanderlust',
     description: 'A property renting web app similar to Airbnb. Built with MERN stack.',
-    tech: 'React, Node.js, MongoDB',
-    github: 'https://github.com/anujmishra786/wanderlust',
-    demo: 'https://wanderlust-your-url.vercel.app',
+    tech: 'JS, Node.js, MongoDB',
+    github: 'https://github.com/anuj8918/Major-Project',
+    demo: 'https://wanderlust-6-l744.onrender.com/listings',
     image: wanderlustImage
+  },
+  {
+    title: 'UniChat',
+    description: 'A real time chat application built with MERN stack and Websocket',
+    tech: 'React, Node, MongoDB, Websocket',
+    github: 'https://github.com/anuj8918/Chat-Application',
+    demo: 'https://chat-application-3fwm.onrender.com/login',
+    image: chatApplication
   },
   {
     title: 'BlogSphere',
     description: 'A blogging platform with authentication and rich text editing.',
-    tech: 'React, Express, MongoDB',
-    github: 'https://github.com/anujmishra786/blogsphere',
-    demo: 'https://blogsphere-your-url.vercel.app',
+    tech: 'JS, Express, MongoDB',
+    github: 'https://github.com/anuj8918/blogging_website',
+    demo: 'https://blogging-website-1-b6hn.onrender.com/',
     image: blogsphereImage
   },
   {
     title: 'Career Advisor AI',
     description: 'AI-powered career guidance system with resume upload and job recommendation.',
     tech: 'React, Flask, MySQL',
-    github: 'https://github.com/anujmishra786/career-advisor',
+    github: 'https://github.com/anuj8918/career_advisor',
     demo: 'https://career-advisor-your-url.vercel.app',
     image: careerAdvisorImage
   },
@@ -37,7 +44,7 @@ const projects = [
     title: 'Personal News Aggregator',
     description: 'A news aggregator that uses machine learning to filter and recommend articles.',
     tech: 'Python, HTML, CSS, Flask, ML',
-    github: 'https://github.com/anujmishra786/personal-news-aggregator',
+    github: 'https://github.com/anuj8918/personal_news_aggregator',
     demo: 'https://personal-news-aggregator-your-url.vercel.app',
     image: personalNewsAggregatorImage
   },
@@ -45,18 +52,11 @@ const projects = [
     title: 'Simon Game',
     description: 'A simple Simon game built with HTML, CSS, and JavaScript.',
     tech: 'HTML, CSS, JavaScript',
-    github: 'https://github.com/anujmishra786/simon-game',
-    demo: 'https://simon-game-your-url.vercel.app',
+    github: 'https://github.com/anuj8918/Simon-Game',
+    demo: 'https://simon-game-ashy-ten.vercel.app/',
     image: simonGameImage
   },
-  {
-    title: 'Netflix Home Page',
-    description: 'A replica of the Netflix homepage using HTML and CSS.',
-    tech: 'HTML, CSS',
-    github: 'https://github.com/anujmishra786/netflix-homepage',
-    demo: 'https://netflix-homepage-your-url.vercel.app',
-    image: netflixHomePageImage
-  },
+  
 ];
 
 const ProjectSection = () => {
