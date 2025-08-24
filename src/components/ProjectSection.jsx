@@ -6,32 +6,50 @@ import careerAdvisorImage from '../assets/careerAdvisor.png';
 import personalNewsAggregatorImage from '../assets/personalNewsAggregator.jpg';
 import simonGameImage from '../assets/simonGame.jpg';
 import chatApplication from '../assets/chatApplication.png';
+import AveryCareImage from '../assets/Averycare.png';
 
 const projects = [
   {
-    title: 'Wanderlust',
-    description: 'A property renting web app similar to Airbnb. Built with MERN stack.',
-    tech: 'JS, Node.js, MongoDB',
-    github: 'https://github.com/anuj8918/Major-Project',
-    demo: 'https://wanderlust-6-l744.onrender.com/listings',
-    image: wanderlustImage
+    title: 'AveryCare – AI-Powered Healthcare Platform',
+    description: 'A full-stack healthcare platform with AI-powered call scheduling using Twilio and Gemini AI. Includes CRUD for family members, AI call summaries, and admin panel.',
+    tech: 'MERN, Redux, Gemini AI, Twilio API',
+    github: 'https://github.com/anuj8918/Averycare',
+    demo: 'https://averycare.vercel.app/',
+    image: AveryCareImage // apna image import krna
+  },
+  {
+    title: 'QuickBlog – AI-Powered Blogging Platform',
+    description: 'A full-stack blogging platform with admin panel, AI-generated SEO content, blog images, and real-time comments.',
+    tech: 'MERN, Gemini API, Clipdrop AI',
+    github: 'https://github.com/anuj8918/Quick-blog',
+    demo: 'https://quick-blog-anuj-mishra.vercel.app/',
+    image: blogsphereImage 
   },
   {
     title: 'UniChat',
-    description: 'A real time chat application built with MERN stack and Websocket',
+    description: 'A real-time chat application with MERN stack and Socket.IO, featuring authentication and secure session management.',
     tech: 'React, Node, MongoDB, Websocket',
     github: 'https://github.com/anuj8918/Chat-Application',
     demo: 'https://chat-application-3fwm.onrender.com/login',
     image: chatApplication
   },
   {
-    title: 'BlogSphere',
-    description: 'A blogging platform with authentication and rich text editing.',
-    tech: 'JS, Express, MongoDB',
-    github: 'https://github.com/anuj8918/blogging_website',
-    demo: 'https://blogging-website-1-b6hn.onrender.com/',
-    image: blogsphereImage
+    title: 'Wanderlust',
+    description: 'A property renting web app like Airbnb, featuring user authentication, listing management, image uploads, and secure booking with MERN stack.',
+    tech: 'JS, Node.js, MongoDB',
+    github: 'https://github.com/anuj8918/Major-Project',
+    demo: 'https://wanderlust-6-l744.onrender.com/listings',
+    image: wanderlustImage
   },
+  
+  // {
+  //   title: 'BlogSphere',
+  //   description: 'A blogging platform with authentication and rich text editing.',
+  //   tech: 'JS, Express, MongoDB',
+  //   github: 'https://github.com/anuj8918/blogging_website',
+  //   demo: 'https://blogging-website-1-b6hn.onrender.com/',
+  //   image: blogsphereImage
+  // },
   {
     title: 'Career Advisor AI',
     description: 'AI-powered career guidance system with resume upload and job recommendation.',
@@ -48,14 +66,14 @@ const projects = [
     demo: '#',
     image: personalNewsAggregatorImage
   },
-  {
-    title: 'Simon Game',
-    description: 'A simple Simon game built with HTML, CSS, and JavaScript.',
-    tech: 'HTML, CSS, JavaScript',
-    github: 'https://github.com/anuj8918/Simon-Game',
-    demo: 'https://simon-game-ashy-ten.vercel.app/',
-    image: simonGameImage
-  },
+  // {
+  //   title: 'Simon Game',
+  //   description: 'A simple Simon game built with HTML, CSS, and JavaScript.',
+  //   tech: 'HTML, CSS, JavaScript',
+  //   github: 'https://github.com/anuj8918/Simon-Game',
+  //   demo: 'https://simon-game-ashy-ten.vercel.app/',
+  //   image: simonGameImage
+  // },
   
 ];
 
